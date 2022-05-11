@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+section {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.conteiner {
+  width: 580px;
+  height: 690px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 6px 15px -4px rgba(32,55,100,0.61); 
+  box-shadow: 0px 6px 15px -4px rgba(32,55,100,0.61);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.conteiner1 {
+  background: #203774;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px 25px 0px 0;
+  padding: 15px;
+  
+}
+.titulo {
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.close {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(245, 245, 245);
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.conteiner2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.calendario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    font-size: 25px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+#hoy {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.tarjeta1 {
+    width: 400px;
+    height: 200px;
+    background: #203774;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    -webkit-box-shadow: 0px 6px 15px -4px rgba(72,104,189,0.61); 
+    box-shadow: 0px 6px 15px -4px rgba(72,104,189,0.61);
+    
+    
+}
+.turno{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.boton1{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  
+  
+}
+.btn-turno{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dr{
+  color: #fff;
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  align-items: center;
+  
+  
+
+}
+
+.perfil {
+  width: 60px;
+  border: 5px solid #4868BD;
+  border-radius: 50%;
+}
+
+@media (max-width:780px){
+  .conteiner {
+    width: 80%;
+    height: 690px;
+    
+  }
+  .tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarjeta1 {
+    width: 80%; 
+    padding: 2px;
+  }
+  .btn-turno{
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+
+}
